@@ -7,9 +7,9 @@ export const metadata = {
 	description: 'Just a random description for testing',
 };
 
-export default ({ children }) => {
+const MainLayout = ({ children }) => {
 	return (
-		<html lang="eng">
+		<html lang="en">
 			<body>
 				<Navbar />
 				<main>{children}</main>
@@ -17,3 +17,5 @@ export default ({ children }) => {
 		</html>
 	);
 };
+
+export default MainLayout;

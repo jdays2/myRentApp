@@ -2,6 +2,8 @@ export const metadata = {
 	title: 'properties',
 };
 
-export default () => {
-	return <>properties</>;
+const PropertiesPage = () => {
+	return <div>PropertiesPage</div>;
 };
+
+export default PropertiesPage;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const PropertyPage = () => {
+const PropertyPage = () => {
 	return <div>PropertyPage</div>;
 };
 

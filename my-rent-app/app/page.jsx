@@ -1,9 +1,13 @@
-function HomePage()  {
+import { Hero } from '@/components/Hero';
+import { InfoBoxes } from '@/components/InfoBoxes';
+
+function HomePage() {
 	return (
 		<>
-			<div>Home page</div>
+			<Hero />
+			<InfoBoxes />
 		</>
 	);
-};
+}
 
 export default HomePage;
